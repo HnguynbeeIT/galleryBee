@@ -3,10 +3,10 @@ import autoprefixer from "autoprefixer";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base:  "/galleryBee/",
-	server: {
-		host: "0.0.0.0"
-	},
+  base: "/galleryBee/", // 👈 rất quan trọng
+  server: {
+    host: "0.0.0.0",
+  },
 	css: {
 		postcss: {
 			plugins: [
